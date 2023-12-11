@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_HUB_CREDENTIALS = 'bf153ce8-4048-4ca4-b781-830c87ec605b'
-        DOCKER_IMAGE_NAME = 'ranjeet6/your-java-app'
+        DOCKER_HUB_CREDENTIALS = 'eb38a0e6-91e9-40a9-b3fc-b1738af83ebd'
+        DOCKER_IMAGE_NAME = 'vrushbha/your-java-app'
         DOCKER_IMAGE_TAG = "${DOCKER_IMAGE_NAME}:${env.BUILD_NUMBER}"
     }
 
