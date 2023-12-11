@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 script {
-                    git 'https://github.com/Ranjeet6/DevOps_Docker.git'
+                    git 'https://github.com/vrushbhakshirsagar/DevOps_Docker.git'
                 }
             }
         }
